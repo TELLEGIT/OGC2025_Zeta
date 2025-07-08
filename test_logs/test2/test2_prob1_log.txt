@@ -1,0 +1,46 @@
+[auto_alpha_beta] → α=0.51, β=0.49 (mean_delta=0.50, mean_q=0.47)
+Port 0 ==============================
+Starting loading phase...
+Demands that are originated from this port: {0: 4, 1: 5, 2: 2}
+total_loading_demands = 11
+Loading phase completed with 11 routes including 0 rehandling routes!
+
+Port 1 ==============================
+Starting unloading phase...
+Demands that are destined to this port: {0: 4}
+Unloading phase completed with 4 routes including 0 rehandling routes!
+Starting loading phase...
+Demands that are originated from this port: {3: 8, 4: 2, 5: 1}
+total_loading_demands = 11
+Loading phase completed with 11 routes including 0 rehandling routes!
+
+Port 2 ==============================
+Starting unloading phase...
+Demands that are destined to this port: {3: 8}
+Unloading path for demand 3 at node 8 is blocked by 1 nodes. Rehandling...
+Unloading path for demand 3 at node 9 is blocked by 1 nodes. Rehandling...
+Unloading path for demand 3 at node 10 is blocked by 1 nodes. Rehandling...
+Unloading phase completed with 11 routes including 3 rehandling routes!
+Starting loading phase...
+Demands that are originated from this port: {6: 3, 7: 1}
+Rehandled demands from unloading phase: [4, 5, 4]
+total_loading_demands = 7
+Loading phase completed with 7 routes including 0 rehandling routes!
+
+Port 3 ==============================
+Starting unloading phase...
+Demands that are destined to this port: {1: 5, 4: 2, 6: 3}
+Unloading path for demand 1 at node 16 is blocked by 1 nodes. Rehandling...
+Unloading phase completed with 11 routes including 1 rehandling routes!
+Starting loading phase...
+Demands that are originated from this port: {8: 8}
+Rehandled demands from unloading phase: [7]
+total_loading_demands = 9
+Loading phase completed with 9 routes including 0 rehandling routes!
+
+Port 4 ==============================
+Starting unloading phase...
+Demands that are destined to this port: {2: 2, 5: 1, 7: 1, 8: 8}
+Unloading phase completed with 12 routes including 0 rehandling routes!
+
+Results are saved as file results.json

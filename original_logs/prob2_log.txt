@@ -1,0 +1,45 @@
+Port 0 ==============================
+Starting loading phase...
+Demands that are originated from this port: {0: 8, 1: 2, 2: 8}
+total_loading_demands = 18
+Loading phase completed with 18 routes including 0 rehandling routes!
+
+Port 1 ==============================
+Starting unloading phase...
+Demands that are destined to this port: {0: 8}
+Unloading phase completed with 8 routes including 0 rehandling routes!
+Starting loading phase...
+Demands that are originated from this port: {3: 8, 4: 18}
+total_loading_demands = 26
+Loading phase completed with 26 routes including 0 rehandling routes!
+
+Port 2 ==============================
+Starting unloading phase...
+Demands that are destined to this port: {1: 2, 3: 8}
+Unloading path for demand 1 at node 35 is blocked by 3 nodes. Rehandling...
+Unloading path for demand 1 at node 36 is blocked by 2 nodes. Rehandling...
+Unloading phase completed with 15 routes including 5 rehandling routes!
+Starting loading phase...
+Demands that are originated from this port: {5: 1}
+Rehandled demands from unloading phase: [4, 4, 4, 4, 4]
+total_loading_demands = 6
+Loading phase completed with 6 routes including 0 rehandling routes!
+
+Port 3 ==============================
+Starting unloading phase...
+Demands that are destined to this port: {2: 8}
+Unloading path for demand 2 at node 34 is blocked by 2 nodes. Rehandling...
+Unloading path for demand 2 at node 40 is blocked by 1 nodes. Rehandling...
+Unloading phase completed with 11 routes including 3 rehandling routes!
+Starting loading phase...
+Demands that are originated from this port: {6: 18}
+Rehandled demands from unloading phase: [4, 4, 4]
+total_loading_demands = 21
+Loading phase completed with 21 routes including 0 rehandling routes!
+
+Port 4 ==============================
+Starting unloading phase...
+Demands that are destined to this port: {4: 18, 5: 1, 6: 18}
+Unloading phase completed with 37 routes including 0 rehandling routes!
+
+Results are saved as file results.json
